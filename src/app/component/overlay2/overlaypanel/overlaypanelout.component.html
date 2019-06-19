@@ -1,0 +1,8 @@
+<div class="outerPanel">
+  <div class="outerButton">
+    <button mat-raised-button color="primary" cdkOverlayOrigin #trigger="cdkOverlayOrigin" (click)="onOpenClose()">{{ text }}</button>
+  </div>
+  <ng-template cdkConnectedOverlay [cdkConnectedOverlayOrigin]="trigger" [cdkConnectedOverlayOpen]="isopen">
+    <app-overlaypanelhover [text]="text" (select)="onSelected($event)"></app-overlaypanelhover>
+  </ng-template>
+</div>

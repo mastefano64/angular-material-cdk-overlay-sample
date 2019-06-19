@@ -1,0 +1,17 @@
+
+.photozoom {  
+    width: 100vw;
+    height: 100vw;
+    background-color:rgba(0, 0, 0, 0.6)
+}
+
+.photoimage1 {     
+    padding-top: 20px; 
+    text-align: center;
+}
+
+.photoimage2 { 
+    max-width: 100%;
+    max-height: 700px;
+    height: auto;
+}

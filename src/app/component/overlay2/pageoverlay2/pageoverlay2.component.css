@@ -1,0 +1,10 @@
+
+.containerButton {
+    display: flex;   
+    margin-top: 100px;     
+}
+
+app-overlaypanelbtn {
+    flex-grow: 1;
+    text-align: center;
+}
