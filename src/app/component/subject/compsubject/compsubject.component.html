@@ -1,0 +1,12 @@
+<div>
+  <h2>{{ title }}</h2>
+  <div>
+    <mat-form-field class="example-full-width">
+      <input matInput name="field" [(ngModel)]="field" placeholder="-- Type a message --" />
+    </mat-form-field>
+    <br><br>
+    <button mat-raised-button color="primary" (click)="onSendMessage()">Send message</button>
+    <br><br>
+    Message: {{ message }}
+  </div>
+</div>

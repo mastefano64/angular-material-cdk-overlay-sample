@@ -1,0 +1,17 @@
+
+.container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.item {
+    flex-grow: 1;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: solid 1px #000000;
+}
+
+.buttonbox {
+    text-align: center;
+}

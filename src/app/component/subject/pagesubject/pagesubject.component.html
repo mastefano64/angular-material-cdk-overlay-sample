@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="item">
+    <app-compsubject [title]="'Component-1'"></app-compsubject>
+  </div>
+  <div class="item">
+    <app-compsubject [title]="'Component-2'"></app-compsubject>
+  </div>
+</div>
+
+<div class="buttonbox">
+  <mat-form-field>
+    <input matInput name="field" [(ngModel)]="field" placeholder="-- Type a message --" />
+  </mat-form-field>
+  <br><br>
+  <button mat-raised-button color="primary" (click)="onSendMessage()">Send message</button>
+  <br><br>
+  Message: {{ message }}
+</div>
