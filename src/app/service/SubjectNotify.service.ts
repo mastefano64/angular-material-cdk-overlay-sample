@@ -6,9 +6,7 @@ export class SubjectNotifyService {
   private subject = new Subject<string>();
   private data$ = this.subject.asObservable();
 
-  constructor() {
-    const a = 1;
-  }
+  constructor() { }
 
   getChannel(): Observable<string> {
     return this.data$;
